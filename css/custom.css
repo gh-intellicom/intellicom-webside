@@ -1,3 +1,8 @@
+/* custom @media */
+
+/* ---------------------- */
+
+
 
 /* overwriting bootstrap  */
 
@@ -36,6 +41,11 @@
 
 /* ---------------------- */
 
+
+
+
+
+
 /* Primary style */
 
 .main-wrapper {
@@ -62,6 +72,8 @@
 	height: 600px;
 	width: 100%;
 
+	margin-top: 10%;
+
 }
 
 .quote-img {
@@ -74,9 +86,49 @@
 
 	    margin-left: auto;
 	    margin-right: auto
-		
-
 }
+
+
+.kompetanse, .kompetanse2 {
+	height: 30vh;
+	padding-top: 70px;
+}
+
+
+.kompetanse-img {
+	height: 800px;
+}
+
+.space {
+	height: 150px;
+	background-color: #f5f5f5;
+}
+
+	
+	.test1 {
+		height: inherit;
+		
+	}
+
+	.test2 {
+		height: inherit;
+	
+	}
+
+
+
+.fullwidth-img {
+	height: 200px;
+	background-color: #f5f5f5;
+}
+
+
+.text {
+	height: 45vh;
+	text-align: center;
+	padding-top: 35px;
+}
+
 
 
 /* ---------------------- */
@@ -98,37 +150,8 @@
 
 
 
-
-
-
-
-.one {
-	height: 25vh;
-	background-color: #efefef;
-}
-
-.two {
-	height: 25vh;
-	background-color: blue;
-}
-
-.three {
-	height: 400px;
-	background-color: orange;
-}
-
-.full {
-	height: 200px;
-	background-color: pink;
-}
-
-.text {
-	height: 50vh;
-	background-color: grey;
-}
-
 .map {
-	height: 50vh;
+	height: 25vh;
 	background-color: #a2a2a2;
 }
 
@@ -139,14 +162,4 @@
 .space {
 	height: 100px;
 	
-}
-
-.test1 {
-	height: inherit;
-	background-color:red;
-}
-
-.test2 {
-	height: inherit;
-	background-color:purple;
 }
