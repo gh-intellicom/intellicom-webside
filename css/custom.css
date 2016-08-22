@@ -1,0 +1,152 @@
+
+/* overwriting bootstrap  */
+
+.container-fluid {
+	padding: 0 !important;
+}
+
+
+.navbar {
+	border:0 !important;
+	padding-top: 15px;
+
+	}
+
+	.navbar-brand h1{
+		color:white;
+	}
+
+	.navbar p{
+		color:white;
+	}
+
+
+.navbar-default {
+	background-color: inherit !important;		/* color | transparent | inherit */
+}
+
+.navbar-default .navbar-nav li a  {
+	color:white !important;
+
+}
+
+.navbar-toggle {
+	background-color: #ececec !important;
+}
+
+/* ---------------------- */
+
+/* Primary style */
+
+.main-wrapper {
+	height: 100vh;
+	background-color: #eaeaea;
+	}
+
+	.bg-img {
+		padding: 0 !important;
+
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), 
+			url('file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/topImage.jpg');
+
+	  	background-size: 100%;
+	  	position: absolute;
+
+	  	background-repeat: no-repeat;
+	  	height: 100%;
+	  	width: auto;
+
+	}
+
+.quote {
+	height: 600px;
+	width: 100%;
+
+}
+
+.quote-img {
+
+		background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/utvikling.png); 
+		background-size:contain;
+		background-repeat: no-repeat;
+		height: 400px;
+		width: 400px;
+
+	    margin-left: auto;
+	    margin-right: auto
+		
+
+}
+
+
+/* ---------------------- */
+
+
+
+
+
+
+/* All hover tags */
+
+
+.navbar-default .navbar-nav li a:hover  {
+
+	text-decoration: underline;
+}
+
+/* ---------------------- */
+
+
+
+
+
+
+
+.one {
+	height: 25vh;
+	background-color: #efefef;
+}
+
+.two {
+	height: 25vh;
+	background-color: blue;
+}
+
+.three {
+	height: 400px;
+	background-color: orange;
+}
+
+.full {
+	height: 200px;
+	background-color: pink;
+}
+
+.text {
+	height: 50vh;
+	background-color: grey;
+}
+
+.map {
+	height: 50vh;
+	background-color: #a2a2a2;
+}
+
+.footer {
+	height: 400px;
+}
+
+.space {
+	height: 100px;
+	
+}
+
+.test1 {
+	height: inherit;
+	background-color:red;
+}
+
+.test2 {
+	height: inherit;
+	background-color:purple;
+}
