@@ -65,7 +65,7 @@
 		padding: 0 !important;
 
 		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), 
-			url('file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/topImage.jpg');
+			url('file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/topImage.jpg');
 
 	  	background-size: cover;
 	  	position: absolute;
@@ -86,7 +86,7 @@
 
 		.quote-img {
 
-				background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/utvikling.png); 
+				background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/utvikling.png); 
 				background-size: cover;
 				background-repeat: no-repeat;
 				height: 60%;
@@ -125,14 +125,27 @@
 	
 	}
 
+	#iphone {
+		background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/iphone.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		height:450px;
+	}
 
+	#imac {
+		background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/imac.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		height:450px;
+		
+	}
 
 .fullwidth-img {
 	margin-top: 5%;
-	margin-bottom: 5%;
-	background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/wide-img.png");
+	background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/wide-img-copy.jpg");
 	background-repeat: no-repeat;
-	height: 300px;
+	background-size: cover;
+	height: 400px;
 }
 
 
@@ -175,6 +188,7 @@
 
 .map {
 	height: 45vh;	
+	padding:0 !important;
 }
 
 	#map {
@@ -185,3 +199,7 @@
 	height: 100px;
 	
 }
+
+
+
+
