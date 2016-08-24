@@ -174,10 +174,12 @@
 
 
 .map {
-	height: 25vh;
-	background-color: #a2a2a2;
+	height: 45vh;	
 }
 
+	#map {
+		height: inherit;		
+	}
 
 .space {
 	height: 100px;
