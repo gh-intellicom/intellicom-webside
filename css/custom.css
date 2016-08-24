@@ -1,4 +1,11 @@
 /* custom @media */
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+	.quote {
+		,margin-top: 15%;
+	}
+}
+
+
 
 /* ---------------------- */
 
@@ -17,8 +24,9 @@
 
 	}
 
-	.navbar-brand h1{
-		color:white;
+	.navbar-brand {
+		padding-top: 10 !important;
+		font-size: 2em !important;
 	}
 
 	.navbar p{
@@ -59,7 +67,7 @@
 		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), 
 			url('file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/topImage.jpg');
 
-	  	background-size: 100%;
+	  	background-size: cover;
 	  	position: absolute;
 
 	  	background-repeat: no-repeat;
@@ -68,40 +76,42 @@
 
 	}
 
-.quote {
-	height: 600px;
-	width: 100%;
+		.quote {
+			height: 600px;
+			width: 100%;
 
-	margin-top: 10%;
+			margin-top: 10%;
 
-}
+		}
 
-.quote-img {
+		.quote-img {
 
-		background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/utvikling.png); 
-		background-size:contain;
-		background-repeat: no-repeat;
-		height: 400px;
-		width: 400px;
+				background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/utvikling.png); 
+				background-size: cover;
+				background-repeat: no-repeat;
+				height: 60%;
+				width: 400px;
 
-	    margin-left: auto;
-	    margin-right: auto
-}
+			    margin-left: auto;
+			    margin-right: auto
+		}
 
 
 .kompetanse, .kompetanse2 {
-	height: 30vh;
+	display: block;
+	overflow: auto;
 	padding-top: 70px;
+
 }
 
 
 .kompetanse-img {
-	height: 800px;
+	height: auto;
 }
 
 .space {
 	height: 150px;
-	background-color: #f5f5f5;
+	background-color: white;
 }
 
 	
@@ -118,17 +128,12 @@
 
 
 .fullwidth-img {
-	height: 200px;
-	background-color: #f5f5f5;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/wide-img.png");
+	background-repeat: no-repeat;
+	height: 300px;
 }
-
-
-.text {
-	height: 45vh;
-	text-align: center;
-	padding-top: 35px;
-}
-
 
 
 /* ---------------------- */
@@ -149,15 +154,30 @@
 /* ---------------------- */
 
 
+.footer {
+	display: block;
+	padding: 0 !important;
+
+}
+	.moreSpace {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+
+.text {
+	display: block;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
 
 .map {
 	height: 25vh;
 	background-color: #a2a2a2;
 }
 
-.footer {
-	height: 400px;
-}
 
 .space {
 	height: 100px;
