@@ -1,10 +1,13 @@
-<!Doctype html>
+<!doctype html>
+
 <head>
+
 	<title></title>
 	<meta charset="UTF-8">
 
-	<!-- Place main css here -->
+	<!-- Our custom css & Screen -->
 	<link href="css/custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/screen.css" media="screen">
 
 	<!-- Jquery if needed -->
 
@@ -15,129 +18,138 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom JS -->
     <script src="js/custom.js"></script>
 
-    <!-- Google Api Map -->
+    <!-- Google Api - Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCr_JjmBax5eoFFyZiTiHh3Xgv01U5bqrc&callback=initMap"
     async defer></script>
+
+    <!-- merriweather font -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
 </head>
 
 
 
 <body>
+		<!-- navbar -->
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      		</button>
+			   	<div class="navbar-brand">
+		      		<p>Intellicom</p>
+		      	</div>
+			</div>
 
-<div class="container-fluid">
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Arbeid</a></li>
+			       <li><a href="#">Om oss</a></li>
+		        <li><a href="#">epost@intellicom.no</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>	
+
+		<!-- Entire body content -->
+<div class="container-fluid"> 
 	<div class="main-wrapper">
-			<div class="bg-img col-lg-12">
 				
-				<!-- navbar -->
-				<nav class="navbar navbar-default">
-				  <div class="container">
-				    <!-- Brand and toggle get grouped for better mobile display -->
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-				      <div class="navbar-brand">
-				      	<p>Intellicom</p>
-				      </div>
-				    </div>
+				<!-- First Section -->
+			<div class="kreativitet">
+				<div class="kreativitet-img col-lg-6 col-xs-6"></div>
+				<div class="kreativitet-text col-lg-6 col-xs-6">
+					<div class="center">
+						<hr class="style-one">
+						<p>VI LEVERER</p>
+						<h1>Kreativitet og teknologi</h1>
+						<hr class="style-one">	
+					</div>
+				</div>
+			</div>
 
-				    <!-- Collect the nav links, forms, and other content for toggling -->
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<!-- Second Section -->
+			<div class="skreddersy col-lg-12">
+					<div class="col-lg-4"></div>	<!-- space -->
+						<div class="square">
+							<h2>Skreddersydde webløsninger</h2>
+							<p>Vi i Intellicom har satt opp webbaserte IT-systemer <br> siden 2002</p>
+						</div>	
+					</div>
+					<div class="col-lg-4"></div>	<!-- space -->
+			</div>
 
-
-				      <ul class="nav navbar-nav navbar-right">
-				        <li><a href="#">Arbeid</a></li>
-				        <li><a href="omOss.html">Om oss</a></li>
-				        <li><a href="#">epost@intellicom.no</a></li>
-				      </ul>
-				    </div><!-- /.navbar-collapse -->
-				  </div><!-- /.container-fluid -->
-				</nav>
-
-				<div class="quote col-lg-12">
-					<div class="quote-img"></div>
+				<!-- Projects -->
+			<div class="projects-wrapper col-lg-12">
+				<div class="col-lg-4"></div>	<!-- space -->
+				<div class="project-nav col-lg-4">
+					<ul>
+						<li><a href="#">App</a></li>
+						<li><a href="#">App</a></li>
+						<li><a href="#">App</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4"></div>	<!-- space -->
+					
+				<!-- Single Project -->	
+				<div class="single-project col-lg-12">		<!-- VENSTRE VINKLET -->
+						
+					<div class="left-project col-lg-6 col-xs-6">
+						<div class="img"></div>
+					</div>
+					<div class="left-project-text col-lg-6 col-xs-6">
+						<div class="img squareSimple">
+							<p>DESIGN & UTVIKLING</p>
+							<h1>Viking Supply Ships</h1>
+						</div>
+					</div>
 				</div>
 
+				<!-- Single Project -->	
+				<div class="single-project col-lg-12">  <!-- HØYRE VINKLET -->
+						
+					<div class="right-project-text col-lg-6 col-xs-6">
+						<div class="img squareSimple">
+							<p>DESIGN & UTVIKLING</p>
+							<h1>Rett hjem</h1>
+						</div>
+					</div>
+
+					<div class="right-project col-lg-6 col-xs-6">
+						<div class="img"></div>
+					</div>
+				</div>
 			</div>
-	</div>
-	
-	<!-- "Vi kan hjelpe deg med" -->
 
-	<div class="kompetanse col-lg-12">
-		<div class="col-lg-7 col-lg-offset-1 col-xs-10">
-			<p>VI KAN HJELPE DEG MED</p>
-			<h3>Rådgivning & konseptutvikling</h3><br>
-			<p>Vivamus non erat sit amet leo tempor feugiat. Fusce varius, odio et lobortis rhoncus, metus sapien faucibus purus, ut lacinia est quam a turpis. Vivamus sed enim eget dui tincidunt aliquam. Mauris pretium iaculis posuere. Praesent iaculis urna vitae ante suscipit, et aliquet metus iaculis. Proin euismod aliquam est, fermentum rhoncus magna consectetur quis. Cras semper rhoncus ipsum.</p>
-		</div>
-		<div class="col-lg-4 col-xs-2"></div>
-	</div>
+			<!-- Footer -->
+			<div class="footer col-lg-12">
+				<div class="col-lg-4"></div>
+				<div class="map col-lg-4">
+					<div class="square map-text">
+						<h2>Besøk oss</h2> <br>
+						<p>Pilestredet 15, <br> 0164 OSLO</p>
+					</div>	
+				</div>
+				<div class="col-lg-4"></div>
 
-
-	<div class="space col-lg-12"></div> <!-- spacing -->
-
-	<!-- "Utvalgte prosjekter" -->
-
-	<div class="kompetanse2 col-lg-12">
-		<div class="test1 col-lg-5 col-lg-offset-1 col-xs-5">
-			<p>UTVALGTE PROSJEKTER</p>
-			<h3>Kompetanse <br> & Erfaring </h3>
-		</div>
-
-		<div class="kompetanse3 col-lg-5 col-xs-7">
-			<p>Vivamus et metus eros. Sed pretium risus semper elit congue, nec mollis eros ornare. Sed eleifend orci quis nisl efficitur accumsan. Praesent vel lacus eu mi vulputate blandit. Aliquam dictum mauris a scelerisque dapibus. Curabitur convallis ante et tortor varius, eget sollicitudin sapien fermentum. Fusce feugiat ante in dolor sodales rutrum condimentum sed nunc. Donec a vulputate nibh. Nullam malesuada mauris maximus, tristique diam ac, auctor massa. Vestibulum cursus tristique iaculis. Vestibulum ultricies, ipsum at pharetra accumsan, augue nulla mollis ipsum, nec dapibus sapien libero in velit. </p>
-		</div>
-
-		<div class="col-lg-1"></div>
-
-	</div>
-
-	<div class="space col-lg-12"></div> <!-- spacing -->
-
-	<div class="kompetanse-img col-lg-12">
-		<div class="test2 col-lg-5 col-lg-offset-1 col-xs-5">
-			<div id="iphone"></div>
-		</div>
-
-		<div class="test1 col-lg-5 col-xs-5">
-			<div id="imac"></div>
-		</div>
-
-		<div class="col-lg-1 col-xs-1"></div>
-	</div>	
-
-	<div class="fullwidth-img col-lg-12 col-xs-12"></div>
-	
-	<div class="footer col-lg-12 col-xs-12">
-		<div class="text col-lg-12">
-			<div class="moreSpace col-lg-4">
-				<h4>Integer tempus</h4>
-				<p> Proin euismod aliquam est, <br> fermentum rhoncus magna consectetur quis. <br> Cras semper rhoncus ipsum.</p>
 			</div>
-			<div class="moreSpace col-lg-4">
-				<h4>Integer tempus</h4>
-				<p> Proin euismod aliquam est, <br> fermentum rhoncus magna consectetur quis. <br> Cras semper rhoncus ipsum.</p>
-			</div>
-			<div class="moreSpace col-lg-4">
-				<h4>Integer tempus</h4>
-				<p> Proin euismod aliquam est, <br> fermentum rhoncus magna consectetur quis. <br> Cras semper rhoncus ipsum.</p>
-			</div>
-		</div>
 
-		<!-- MAP , place img or respected info here -->
-		<div class="map col-lg-12">
-			<div id="map"></div>
+			<div class="bg col-lg-12"></div>
 		</div>
-	</div>
 
 </body>
 

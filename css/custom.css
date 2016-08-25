@@ -1,15 +1,7 @@
-/* custom @media */
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
-	.quote {
-		,margin-top: 15%;
-	}
+
+p, h1, h2, h3, h4 {
+	font-family: 'Merriweather', serif !important;
 }
-
-
-
-/* ---------------------- */
-
-
 
 /* overwriting bootstrap  */
 
@@ -18,187 +10,271 @@
 }
 
 
+
+/*------------------------------------------------------------------------------/* Navbar */
+/*------- Style navbar here -------*/
+
 .navbar {
 	border:0 !important;
 	padding-top: 15px;
-
-	}
+	padding-left:35px;
+	padding-right:35px;
+	width: 100vw;
+   
+    position:absolute !important;
+    z-index:1 !important;
+}
 
 	.navbar-brand {
 		padding-top: 10 !important;
-		font-size: 2em !important;
+		font-size: 2.1em !important;
 	}
+		.navbar-brand p {
+			color: white !important;
+		}
 
 	.navbar p{
-		color:white;
+		color:black;
 	}
 
-
 .navbar-default {
-	background-color: inherit !important;		/* color | transparent | inherit */
+	background-color: transparent !important;
 }
 
 .navbar-default .navbar-nav li a  {
-	color:white !important;
-
+	color:black !important;
 }
-
-.navbar-toggle {
-	background-color: #ececec !important;
-}
-
-/* ---------------------- */
-
-
-
-
-
-
-/* Primary style */
-
-.main-wrapper {
-	height: 100vh;
-	background-color: #eaeaea;
-	}
-
-	.bg-img {
-		padding: 0 !important;
-
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), 
-			url('file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/topImage.jpg');
-
-	  	background-size: cover;
-	  	position: absolute;
-
-	  	background-repeat: no-repeat;
-	  	height: 100%;
-	  	width: auto;
-
-	}
-
-		.quote {
-			height: 600px;
-			width: 100%;
-
-			margin-top: 10%;
-
-		}
-
-		.quote-img {
-
-				background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/utvikling.png); 
-				background-size: cover;
-				background-repeat: no-repeat;
-				height: 60%;
-				width: 400px;
-
-			    margin-left: auto;
-			    margin-right: auto
-		}
-
-
-.kompetanse, .kompetanse2 {
-	display: block;
-	overflow: auto;
-	padding-top: 70px;
-
-}
-
-
-.kompetanse-img {
-	height: auto;
-}
-
-.space {
-	height: 150px;
-	background-color: white;
-}
-
-	
-	.test1 {
-		height: inherit;
-		
-	}
-
-	.test2 {
-		height: inherit;
-	
-	}
-
-	#iphone {
-		background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/iphone.png);
-		background-repeat: no-repeat;
-		background-size: contain;
-		height:450px;
-	}
-
-	#imac {
-		background-image: url(file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/imac.png);
-		background-repeat: no-repeat;
-		background-size: contain;
-		height:450px;
-		
-	}
-
-.fullwidth-img {
-	margin-top: 5%;
-	background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/wide-img-copy.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 400px;
-}
-
-
-/* ---------------------- */
-
-
-
-
-
-
-/* All hover tags */
-
 
 .navbar-default .navbar-nav li a:hover  {
 
 	text-decoration: underline;
 }
 
-/* ---------------------- */
+
+/*----- End of Navbar -----*/
 
 
-.footer {
-	display: block;
-	padding: 0 !important;
 
+
+/*------------------------------------------------------------------------------/* First Section */
+
+
+.kreativitet {
+	height: 60vh;
+	width: 100vw;
 }
-	.moreSpace {
-		margin-top: 5%;
-		margin-bottom: 5%;
+
+	.kreativitet-img {
+		height: inherit;	/*-- parent = 60vh --*/
+		background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/oss.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	.kreativitet-text {
+		height: inherit;	/*-- parent = 60vh --*/
+		background-color:white; 
 	}
 
-
-.text {
-	display: block;
-	text-align: center;
-	padding-top: 35px;
-	padding-bottom: 35px;
+.center {
+	margin:180px auto;
+    height:300px;        
+    width: 300px;
+    text-align: center;
 }
 
 
-.map {
-	height: 45vh;	
+
+/*------- End of First Section -------*/
+
+
+
+
+/*------------------------------------------------------------------------------/* Second Section */
+/*-- More code in "Reause" section --*/
+
+.skreddersy {
+	height: 55vh;
+	background-color: #f9f9f9;
+}
+
+
+
+/*------- End of Second Section -------*/
+
+
+
+
+/*------------------------------------------------------------------------------/* Projects Section */
+
+.projects-wrapper {
+	height: auto;
+	background-color: #EDEDED;
+	padding:0 !important;
+	color:white;
+}
+
+	.project-nav {
+		margin-top: 60px;
+		text-align: center;
+	}
+
+		.project-nav li{
+			display: inline;
+			margin: 20px;
+			padding:30px;
+		}
+
+			.project-nav li a {
+				color: #797979;	
+			}
+
+	.project-nav li:hover , .prosjekt-nav li a:hover {  
+		background-color: white;
+		text-decoration: none;
+	}
+
+.single-project {
+	height: 66vh;
+	margin-top: 5%;
+	margin-bottom: 5%;
 	padding:0 !important;
 }
 
-	#map {
-		height: inherit;		
+.left-project {
+	height: inherit;
+	padding:0 !important;
+}
+
+	.left-project .img {
+		background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/ship.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+    	background-position: center; 
+    	height: 100%;
 	}
 
-.space {
-	height: 100px;
-	
+	.left-project-text {
+		height: 35vh;
+		background-color: #FFC627;
+		background-clip: content-box;
+
+		margin-left: -15%;
+		margin-top: 20%;
+		padding-right: 300px !important;
+		padding-left: 0 !important;
+	}
+
+
+
+.right-project-text {
+		height: 35vh;
+		background-color: #F20000;
+		background-clip: content-box;
+
+		padding-left: 300px !important;
+		padding-right: 0 !important;
+
+		margin-top: 20%;
+		margin-left: 15%;
+    	position:absolute !important;
+    	z-index:1 !important;
+
 }
+
+.right-project {
+	height: inherit;
+	padding:0 !important;
+	margin-left: 50%;
+}
+
+	.right-project .img {
+		background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/retthjem.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+    	background-position: center; 
+    	height: 100%;
+	}
+
+.squareSimple {
+    margin:100px auto;
+    height:245px;        
+    width: 245px;
+
+}
+
+	.square h2 , .square p {
+		overflow: hidden;
+		text-align: center;
+
+	}
+/*------- End of Project Section -------*/
+
+
+
+
+/*------------------------------------------------------------------------------/* Reused code */
+/*-------  -------*/
+
+
+.square {
+    height: 250px;        
+    width: 250px;
+    margin:120px auto;
+	border-style: solid;
+	border-color: #a0a0a0;
+	border-width: 6px; 
+	padding-top: 20px;: 
+}
+
+hr.style-one {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 0;
+    height: 1px;
+    background: #333;
+    width: 50%;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+
+/*------- End of Reused code -------*/
+
+
+
+
+/*------------------------------------------------------------------------------/* Footer */
+/*-------  -------*/
+
+.footer {
+	height: 55vh;
+	
+	background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/map.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}	
+	.map {
+		height: inherit;
+	}
+
+	.map-text {
+		color:white;
+	}
+
+
+/*------- End of Footer -------*/
+
+
+
+	
+	
+
+
+
+
+
 
 
 

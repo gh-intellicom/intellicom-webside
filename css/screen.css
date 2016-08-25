@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1024px) {
+
+	.left-project-text {
+			height: 100%;
+			background-color: #FFC627;
+			background-repeat: no-repeat;
+			margin-left: 0;
+			margin-top: 0;
+			padding-right: 0 !important;
+			}
+
+
+	.right-project-text{
+			height: 100%;
+			background-color: #FFC627;
+			background-repeat: no-repeat;
+			margin-left: 0;
+			margin-top: 0;
+			padding: 0 !important;
+			}
+
+
+	.skreddersy {
+		height: 60vh;
+	}
+
+	.squareSimple {
+		padding-top : 60px;
+	}
+
+}
+
