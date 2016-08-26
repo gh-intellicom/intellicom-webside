@@ -3,6 +3,7 @@ p, h1, h2, h3, h4 {
 	font-family: 'Merriweather', serif !important;
 }
 
+
 /* overwriting bootstrap  */
 
 .container-fluid {
@@ -66,7 +67,7 @@ p, h1, h2, h3, h4 {
 
 	.kreativitet-img {
 		height: inherit;	/*-- parent = 60vh --*/
-		background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/oss.png");
+		background-image: url("../img/oss.png");
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -106,6 +107,17 @@ p, h1, h2, h3, h4 {
 
 
 /*------------------------------------------------------------------------------/* Projects Section */
+
+.single-project a {
+	color:white !important;
+}
+
+.single-project :hover , a, p, h1, h2 ,h3{
+	text-decoration: none !important;
+}
+
+
+
 
 .projects-wrapper {
 	height: auto;
@@ -147,7 +159,7 @@ p, h1, h2, h3, h4 {
 }
 
 	.left-project .img {
-		background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/ship.png");
+		background-image: url("../img/ship.png");
 		background-size: cover;
 		background-repeat: no-repeat;
     	background-position: center; 
@@ -160,7 +172,7 @@ p, h1, h2, h3, h4 {
 		background-clip: content-box;
 
 		margin-left: -15%;
-		margin-top: 20%;
+		margin-top: 22%;
 		padding-right: 300px !important;
 		padding-left: 0 !important;
 	}
@@ -175,7 +187,7 @@ p, h1, h2, h3, h4 {
 		padding-left: 300px !important;
 		padding-right: 0 !important;
 
-		margin-top: 20%;
+		margin-top: 22%;
 		margin-left: 15%;
     	position:absolute !important;
     	z-index:1 !important;
@@ -189,7 +201,7 @@ p, h1, h2, h3, h4 {
 }
 
 	.right-project .img {
-		background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/retthjem.png");
+		background-image: url("../img/retthjem.png");
 		background-size: cover;
 		background-repeat: no-repeat;
     	background-position: center; 
@@ -204,10 +216,19 @@ p, h1, h2, h3, h4 {
 }
 
 	.square h2 , .square p {
-		overflow: hidden;
+		/*overflow: hidden;*/
 		text-align: center;
 
 	}
+
+.arrow {
+	background-image: url("../img/arrow.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	height:10px;
+	width: 100px;
+}
+
 /*------- End of Project Section -------*/
 
 
@@ -250,7 +271,7 @@ hr.style-one {
 .footer {
 	height: 55vh;
 	
-	background-image: url("file:///Users/Rene/Documents/git/intellicom-nettsted/Intellicom-webside/intellicom-webside/img/map.png");
+	background-image: url("../img/map.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -265,15 +286,6 @@ hr.style-one {
 
 
 /*------- End of Footer -------*/
-
-
-
-	
-	
-
-
-
-
 
 
 
