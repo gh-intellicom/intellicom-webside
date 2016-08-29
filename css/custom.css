@@ -46,9 +46,9 @@ p, h1, h2, h3, h4 {
 	color:black !important;
 }
 
-.navbar-default .navbar-nav li a:hover  {
+li a:hover  {
 
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 
@@ -264,6 +264,93 @@ hr.style-one {
 
 
 
+
+/*------------------------------------------------------------------------------/* Customers */
+
+
+.customers {
+	width: 100%;
+	display: block;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.single-customer img {
+	height: 140px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+	.all-customers {
+		height:45vh;
+
+	}
+
+			.kinnarps {
+				background-image: url(../img/kunder/abilia.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-origin: content-box;
+				height: 50%;
+
+			}
+
+			.relocator {
+				background-image: url(../img/customers/relocator.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				height: inherit;
+			}
+
+
+			.opplysningen {
+				background-image: url(../img/customers/opplysningen.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				height: inherit;
+			}
+
+			.viking {
+				background-image: url(../img/customers/viking.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				height: inherit;
+			}
+			
+			.deloitte {
+				background-image: url(../img/customers/deloitte.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				height: inherit;
+			}
+			
+			.infopad {
+				background-image: url(../img/customers/infopad.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				height: inherit;
+			}
+
+
+.customers h2 {
+	text-align: center;
+	padding-top: 25px;
+}
+
+hr.style-two {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 0;
+    height: 1px;
+    background: #333;
+    width: 40%;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+/*-------  -------*/
 
 /*------------------------------------------------------------------------------/* Footer */
 /*-------  -------*/
