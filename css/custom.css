@@ -267,6 +267,11 @@ hr.style-one {
 
 /*------------------------------------------------------------------------------/* Customers */
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 
 .customers {
 	width: 100%;
@@ -287,51 +292,10 @@ hr.style-one {
 		height:45vh;
 
 	}
+		.all-customers img {
+			opacity: 0.4;
+		}
 
-			.kinnarps {
-				background-image: url(../img/kunder/abilia.png);
-				background-size: contain;
-				background-repeat: no-repeat;
-				background-origin: content-box;
-				height: 50%;
-
-			}
-
-			.relocator {
-				background-image: url(../img/customers/relocator.png);
-				background-size: contain;
-				background-repeat: no-repeat;
-				height: inherit;
-			}
-
-
-			.opplysningen {
-				background-image: url(../img/customers/opplysningen.png);
-				background-size: contain;
-				background-repeat: no-repeat;
-				height: inherit;
-			}
-
-			.viking {
-				background-image: url(../img/customers/viking.png);
-				background-size: contain;
-				background-repeat: no-repeat;
-				height: inherit;
-			}
-			
-			.deloitte {
-				background-image: url(../img/customers/deloitte.png);
-				background-size: contain;
-				background-repeat: no-repeat;
-				height: inherit;
-			}
-			
-			.infopad {
-				background-image: url(../img/customers/infopad.png);
-				background-size: contain;
-				background-repeat: no-repeat;
-				height: inherit;
-			}
 
 
 .customers h2 {
@@ -349,6 +313,10 @@ hr.style-two {
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+
+.single-customer img:hover{
+	opacity: 1;
+}
 
 /*-------  -------*/
 
