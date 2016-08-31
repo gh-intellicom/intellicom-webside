@@ -117,8 +117,6 @@ li a:hover  {
 }
 
 
-
-
 .projects-wrapper {
 	height: auto;
 	background-color: #EDEDED;
@@ -138,7 +136,8 @@ li a:hover  {
 		}
 
 			.project-nav li a {
-				color: #797979;	
+				color: #797979;
+				text-decoration: none;	
 			}
 
 	.project-nav li:hover , .prosjekt-nav li a:hover {  
@@ -273,6 +272,12 @@ hr.style-one {
 }
 
 
+.show-all {
+	height: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
 .customers {
 	width: 100%;
 	display: block;
@@ -289,7 +294,7 @@ hr.style-one {
 
 
 	.all-customers {
-		height:45vh;
+		height:15vh;
 
 	}
 		.all-customers img {

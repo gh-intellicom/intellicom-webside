@@ -40,8 +40,11 @@ and (max-width : 1024px)  {
 	}
 
 	.all-customers {
-		height:65vh;
+		height:15vh;
 
+	}
+	.rest-customers {
+		display:none;
 	}
 	
 }
@@ -51,13 +54,10 @@ and (max-width : 1024px)  {
 /*-------  -------*/
 @media only screen 			
 and (min-width : 375px) 
-and (max-width : 667px) {
+and (max-width : 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
 
 	
-		.single-project{
-			height: 45vh;
-			}
-
 		.square {
 			margin-top : 135px;
 		}
@@ -65,8 +65,22 @@ and (max-width : 667px) {
 		.footer {
 			height: 55vh; 
 		}
+	.all-customers {
+		height:30vh;
+	}
 
+	.rest-customers {
+		display:none;
+	}
+
+	.navbar-default .navbar-nav li a  {
+		color:white !important;
+	}
 
 	}
+
+/*------------------------------------------------------------------------------/* Iphone 5  */
+/*-------  -------*/
+
 
 
